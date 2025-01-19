@@ -60,6 +60,7 @@ def minimax(board, stone, depth, alpha, beta, maximizing_player):
             if beta <= alpha:
                 break
         return min_eval
+        
 class kerokeroAI(object):
     def face(self):
         return "🦾"  # 強いAIを示すアイコン
